@@ -1,0 +1,136 @@
+.header{
+
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%; 
+    height: 50px; 
+    background-color: rgba(83, 47, 181, 1);
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: visible;
+    display: block;
+    margin-left: 2%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    position: relative;
+    color: #f2f2f2;
+    margin-left: 1%;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: white;
+    font-family: Barlow;
+  }
+
+  .icon{
+
+    margin-left: 4px;
+
+  }
+
+.nav{
+
+    position: absolute;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 1%;
+    border: 0px;
+
+}
+
+.navbox{
+
+  float:left;
+  margin-top: 7px;
+  width: 280px;
+  height: 35px;
+
+  background: #FFFFFF;
+  border-radius: 20px;
+
+}
+
+.menuicon{
+
+  float: right; 
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #313D52;
+}
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #fff;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
